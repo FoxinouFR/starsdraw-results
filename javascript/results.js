@@ -13,13 +13,13 @@ function draw(index, transactionHash, gasUsed, height, maxTokens)
 	let STRING2 = gasUsed+height+index;
 	
 	let hash = CryptoJS.HmacSHA512(STRING1, STRING2);
-	hash = (hash+'').substr(0, 8).replace(/[^a-f0-9]/gi, '');
+	hash = hash.toString().substring(0, 8).replace(/[^a-f0-9]/gi, '');
 	
 	let number = parseInt(hash, 16);
 	
 	let diviser = 4294967295 / maxTokens;
 	
-	nftId = 1 + (number / diviser);
+	let nftId = 1 + (number / diviser);
 	
 	nftId = Math.floor(nftId);
 	
