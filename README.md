@@ -15,4 +15,4 @@ Go to https://starsdraw.net/draws to get the information for each draw.
  - [Website](https://starsdraw.net)
  - [Twitter](https://twitter.com/TeamStarsdraw)
  - [Discord](https://discord.com/invite/B2BmGd98WK)
- - [Lightpaper](http://starsdraw.lo/documents/Stars%20Draw%20-%20Lightpaper%202022.pdf)
+ - [Lightpaper](https://starsdraw.net/documents/Stars%20Draw%20-%20Lightpaper%202022.pdf)
